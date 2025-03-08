@@ -1,0 +1,38 @@
+And my second mod is... A targeting system!
+
+Basically the mod will automatically target the closest NPC your goat can see. I had some idea of cool stuff you can do when you have a target, but if you have more ideas feel free to propose them ;)
+
+[b]FERATURES[/b]
+- TARGET LICK: You can lick your target even if it's far away!
+- TARGET SWAP: You can swap your position with your target's position!
+
+[b]PLANNED FERATURES[/b]
+- TARGET CONTROL: The idea is to take control of the target NPC, bu this may be hard to implement so I will do that later.
+
+[b]CHARACTERISTICS[/b]
+- Your current target have a halo on his head.
+- The targeting system select the closest NPC but you can switch to the next target by pressing [2]. This add your current target to a blacklist so that it wont be selected any more.
+- You can lock/unlock the current target with [3]. This also clear the blacklist created with [2].
+- Using Target Swap, press [X] to swap.
+
+[b]KNOWN BUGS[/b]
+- Using Target Lick, licking certain far targets just don't work.
+- Using Target Lick, you can sometimes lick an invisible point in the air. If that happen, find another object to lick to cancel the bug.
+- [b]Crashes the 32-bit version of the game[/b].
+
+
+[b]FAQ[/b]
+- My game wont start after I installed your mod, what do I do?
+[i]If you are running the 32-bit version of the game, that's normal and I can't do anything about that, try starting the 64-bit version located in "C:\Program Files (x86) \Steam \SteamApps \common \GoatSimulator \Binaries \Win64 \GoatGame.exe" [/i]
+
+- I can't find this folder on my computer, why?
+[i]If "Program Files (x86)" don't exist on your system, that means you are on a 32-bit OS so you just can't run 64-bit game sorry.
+If only "Win64" don't exist on your system, you need to install the development tools as explained in [url=http://steamcommunity.com/sharedfiles/filedetails/?id=232365177&searchtext=tools]this guide.[/url][/i]
+
+- I am running the 64-bit version of the game and this is still crashing, can you help?
+[i]First try to unsubscribe and resubscribe to the mod and see if that fixed the problem. If not, I can't do anything more for you sorry.[/i]
+
+[b]DEV NOTES[/b]
+[quote=About this mod]With this second mod, I started understanding a bit more how to structure UScript codes correctly and that helped a lot to make a compact mod ^^
+The lick system is just a copy/paste of the function used to lick normally an object in the game so I may have to tweak it a bit more to make it work perfectly with long distance targets.
+The swap took me some times to set up because of ragdolls once again : Basically you can't teleport a ragdoll -_- So I had to cancel the radoll mode during the swap and reactivate it after.[/quote]
